@@ -1,5 +1,7 @@
 
-
+html{
+    font-family: Tahoma, sans-serif;
+}
 
 * {
     -webkit-box-sizing: border-box;
@@ -21,11 +23,48 @@ img{
     padding: 0;
 }
 
+footer{
+    color: #FFF;
+    background-color: #82ACBC;
+    margin-top: 10px;
+    padding: 15px;
+}
+
+footer p{
+    display: block;
+    font-size: 12px;
+    text-align: center;
+    padding: 2px;
+    margin: 0;
+
+}
+
+
+h2{
+    color: #94ba2e;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+
+
+.Text p{
+    font-size: 12px;
+    line-height: 1.5;
+
+}
+
 .price,
-.currency{
+.currency {
     color: #89AD23;
     font-size: 12px;
 }
+
+.price{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 .angebot{
     margin: 30px 0 30px 0;
 }
@@ -73,13 +112,18 @@ img{
 
 figure{
     margin: 0;
-    padding: 4px 10px 10px 10px;
+    padding: 4px 8px 10px 10px;
     text-align: center;
     font-family: Tahoma, sans-serif;
-    font-size: 12px;
+    font-size: 11px;
     display: block;
 }
+figure:hover{
+    background-color: #E4F1F1;
+    cursor: pointer;
+    transition: scale 2;
 
+}
 
 .logo{
     width: 200px;
@@ -99,9 +143,10 @@ header input{
     margin: 0;
     padding: 0;
     transform: translateX(500px) translateY(10px);
+    box-sizing: border-box;
 }
 
-header input[type=text]{
+header input[type="text"]{
     background-color: #FFF;
     width: 330px;
     border-top: 1px solid #BECCCF;
@@ -111,9 +156,10 @@ header input[type=text]{
     border-radius: 2px 0 0 2px;
     text-align: center;
     color: red;
+    box-sizing: border-box;
 }
 
- header input[type=button]{
+ header input[type="button"]{
     width: 40px;
     border-top: 1px solid #BECCCF;
     border-bottom: 1px solid #BECCCF;
@@ -124,13 +170,14 @@ header input[type=text]{
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 80% 80%;
+    box-sizing: border-box;
 
 }
 
-header input[type=button]:hover{
+header input[type="button"]:hover{
     cursor: pointer;
     background-size: 90% 90%;
- s
+
 }
 
 header input::placeholder{
@@ -146,14 +193,15 @@ header input::placeholder{
 .ZSB input[type="text"] {
     display: block;
     float: left;
-    width: 80px;
+    width: 108px;
     height: auto;
     border: 1px solid #89AC29;
     background-color: #89AC29;
-    margin: 20px 0 20px 0;
+    margin: 10px 0 10px 0;
     padding: 5px 4px 5px 4px;
     outline: none;
     cursor: pointer;
+    box-sizing: border-box;
 
 }
 
@@ -164,27 +212,38 @@ header input::placeholder{
     height: 25px;
     border:1px solid #89AC29;
     background-color: #89AC29;
-    margin: 20px 0 20px 0;
-    padding: 10px;
+    margin: 10px 0 10px 0;
     outline: none;
     cursor: pointer;
+    box-sizing: border-box;
 }
 
 .ZSB input[type="button"]:hover {
     background-image: url(../img/einkaufswagen-white-green.svg);
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: cover;
+    background-size: 20px 20px;
+    background-color: #6F8E24;
     border: 1px solid #719128;
+    box-sizing: border-box;
 }
 .ZSB input::placeholder{
     text-align: right;
+    padding-right: 8px;
     color: #FFF;
 }
 
+a{
+    color: #BECCCF;
+}
 
-.hide{
-    display: none;
+.hidden-label{
+    position: absolute;
+    height: 0;
+    width: 0;
+    visibility: hidden;
+    overflow: hidden;
+
 }
 /* End body Zum Shop button */
 
@@ -198,9 +257,10 @@ header input::placeholder{
    .col-1{
        width: 8.33%;
 
+
    }
    .col-2{
-       width: 16.66%;
+       width: 20%;
        border-right: 1px solid #BECCCF;
        border-bottom: 1px solid #BECCCF;
 
@@ -211,15 +271,17 @@ header input::placeholder{
    }
 
    .col-4{
-       width: 33.33%;
+       width: 40%;
+
    }
 
    .col-5{
-       width: 41.66%;
+       width: 50%;
+
    }
 
    .col-6{
-       width: 50%;
+       width: 60%;
    }
    .col-7{
        width: 58.33%;
@@ -288,6 +350,23 @@ td p{
     margin-top: 5px;
 }
 
+.description{
+    display: block;
+    width: 70%;
+    float: left;
+    box-sizing: border-box;
+}
+.exampleImage{
+    display: block;
+    width: 200px;
+    height: 190px;
+    float: left;
+    margin: 0 20px 0 20px;
+    border: 1px solid #BECCCF;
+    box-sizing: border-box;
+    padding: 10px;
+
+}
 /*End Style Table*/
 
 .group:before,
