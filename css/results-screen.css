@@ -254,20 +254,25 @@ a{
     margin: 0;
     padding: 0;
 }
-   .col-1{
-       width: 8.33%;
 
+
+   .col-1{
+       display: block;
+       width: 20%;
+       float: left;
+       box-sizing: border-box;
 
    }
    .col-2{
        width: 20%;
        border-right: 1px solid #BECCCF;
        border-bottom: 1px solid #BECCCF;
-
+       box-sizing: border-box;
    }
 
    .col-3{
        width: 25%;
+
    }
 
    .col-4{
@@ -294,11 +299,15 @@ a{
        width: 75%;
    }
    .col-10{
-       width: 83.33%;
+       width: 80%;
    }
    .col-11{
-       width: 91.66%;
+       display: block;
+       float: left;
+       width: 70%;
+       box-sizing: border-box;
    }
+
    .col-12{
        width: 100%;
    }
@@ -352,7 +361,7 @@ td p{
 
 .description{
     display: block;
-    width: 70%;
+    width: 65%;
     float: left;
     box-sizing: border-box;
 }
@@ -368,6 +377,90 @@ td p{
 
 }
 /*End Style Table*/
+
+/* Style PartTwo*/
+
+.PartTwo{
+    margin: 10px 0 20px 0;
+    padding: 20px 0 20px 0;
+    font-size: 12px;
+    background-color: #eeeeee;
+}
+
+
+.shop {
+    display: block;
+    box-sizing: border-box;
+}
+
+.shopOne{
+    background-image: url(../img/Medion-logo.svg);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: 60px auto;
+    z-index: 1000;
+    padding-left: 60px;
+}
+
+
+.shopTwo{
+    background-image: url(../img/real-logo.svg);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 25px 50px;
+    padding-left: 27px;
+}
+
+.shopThree{
+    background-image: url(../img/Otto-logo.svg);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 26px 50px;
+    padding-left: 29px;
+}
+
+.shopFour{
+    background-image: url(../img/superbillig.svg);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 18px 50px;
+    padding-left: 17px;
+}
+
+
+.shopFive{
+    background-image: url(../img/amazon-logo.svg);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 16px 30px;
+    padding-left: 19px;
+}
+
+
+.shopDescription{
+    display: block;
+    box-sizing: border-box;
+}
+
+
+.shopDescription a{
+    color: #4c8be8;
+    padding-left: 10px;
+}
+
+.shopDescription p{
+    margin: 2px 0 0 0;
+    padding-left: 10px;
+}
+
+
+.border{
+    border-bottom: 1px solid #a6a3a3;
+    padding: 15px 0 15px 0;
+}
+
+/* End of Style Part 2*/
+
 
 .group:before,
 .group:after {
