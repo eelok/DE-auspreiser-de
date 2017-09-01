@@ -49,6 +49,8 @@ h2{
 
 
 .Text p{
+    text-align: justify;
+    padding-right: 40px;
     font-size: 12px;
     line-height: 1.5;
 
@@ -73,7 +75,7 @@ h2{
     width: 970px;
     margin-left: auto;
     margin-right: auto;
-    background-color: #FFF;
+
 }
 .sidebar {
     display:block;
@@ -283,9 +285,9 @@ a{
 
    .col-4{
        display: block;
-       width: 30%;
        float: left;
-       border: 1px solid orange;
+       width: 33.33%;
+       box-sizing: border-box;
    }
 
    .col-5{
@@ -368,8 +370,10 @@ td p{
 }
 
 .description{
+    margin-top: 2px;
+    padding: 0;
     display: block;
-    width: 65%;
+    width: 72%;
     float: left;
     box-sizing: border-box;
 }
@@ -378,18 +382,19 @@ td p{
     width: 200px;
     height: 190px;
     float: left;
-    margin: 0 20px 0 20px;
+    margin-top: 22px;
     border: 1px solid #BECCCF;
     box-sizing: border-box;
     padding: 10px;
-
+    transform: translateX(10px);
 }
+
 /*End Style Table*/
 
 /* Style PartTwo*/
 
 .PartTwo{
-    margin: 10px 0 20px 0;
+    margin: 0 0 20px 0;
     padding: 20px 0 20px 0;
     font-size: 12px;
     background-color: #eeeeee;
@@ -477,20 +482,56 @@ td p{
     display: block;
     float: left;
     width: 80%;
-    padding: 20px 0 20px 0;
+    margin: 10px 0 0 0;
     color: #8bab30;
+    box-sizing: border-box;
 }
 
 .VSeite{
     display: block;
-    float: left;
+    background-image: url(../img/VSeite-arrow-green.svg);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: 15px 19px;
+    cursor: pointer;
+
 }
+
+.VSeite span{
+    text-align: left;
+    padding-left: 30px;
+}
+
+
 
 .NSeite{
     display: block;
-    float: right;
+    background: url(../img/NSeite-arrow-green.svg);
+    background-repeat: no-repeat;
+    background-position: 245px top;
+    background-size: 15px 19px;
+    cursor: pointer;
 }
 
+.NSeite span{
+    text-align: center;
+    padding-left: 130px;
+    margin: 0;
+}
+
+.counter{
+    display: block;
+    background-image: url(../img/numbers.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 120px 40px;
+    padding: 13px;
+    cursor: pointer;
+}
+
+
+
+.
 /* End of Style pages*/
 
 
