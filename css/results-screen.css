@@ -492,7 +492,7 @@ td p{
     display: block;
     background-image: url(../img/VSeite-arrow-green.svg);
     background-repeat: no-repeat;
-    background-position: left top;
+    background-position: 5px top;
     background-size: 15px 19px;
     cursor: pointer;
 
@@ -500,7 +500,7 @@ td p{
 
 .VSeite span{
     text-align: left;
-    padding-left: 30px;
+    padding-left: 35px;
 }
 
 
