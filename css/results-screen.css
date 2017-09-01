@@ -478,11 +478,12 @@ td p{
 /* End of Style Part 2*/
 
 /* Style pages*/
+
 .pages{
     display: block;
     float: left;
     width: 80%;
-    margin: 10px 0 0 0;
+    margin: 10px 0 20px 0;
     color: #8bab30;
     box-sizing: border-box;
 }
